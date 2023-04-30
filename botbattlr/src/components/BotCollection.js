@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+
 import BotList from './BotList'
 import "./BotCollection.css"
 
@@ -12,6 +13,7 @@ function BotCollection() {
     }, [])
   return (
    < div >
+      <h3>CHOOSE A BOT FOR YOUR ARMY:</h3>
        <div className='container col'>
         {BotCollection.map((bots) => {
             return (
