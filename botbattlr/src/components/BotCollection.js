@@ -11,7 +11,7 @@ function BotCollection() {
         .then((data) => setBotCollection(data));
     }, [])
   return (
-   < div class="sza ">
+   < div >
        <div className='container col'>
         {BotCollection.map((bots) => {
             return (
