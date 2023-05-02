@@ -27,6 +27,7 @@ function BotList({
             <p class="card-text">created:{created}</p>
             <p class="card-text">updated:{updated}</p>
             <button onClick={armyHandler}>Add Bot</button>
+            <button onClick={armyHandler}>x</button>
             {}
         </div>
       </div>
